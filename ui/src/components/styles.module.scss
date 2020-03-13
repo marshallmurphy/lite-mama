@@ -1,0 +1,31 @@
+@import 'assets/styles/colors.scss';
+
+.home {
+
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 38px;
+  }
+
+  h3 {
+    color: $grey_h3;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    color: $grey_p;
+    margin-top: 16px;
+  }
+
+  a {
+    color: $blue_link;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
